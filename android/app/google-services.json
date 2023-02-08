@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944376937289",
+    "project_id": "sosmed-45599",
+    "storage_bucket": "sosmed-45599.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944376937289:android:524e4aee2206358b18f898",
+        "android_client_info": {
+          "package_name": "com.example.sadulur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944376937289-qkvdgmvcooupjbs5h9hu9reeclm40tg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhpZhbAOGRJpboX2XETd3MEv9UB6-3rOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944376937289-qkvdgmvcooupjbs5h9hu9reeclm40tg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
