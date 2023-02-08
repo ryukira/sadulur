@@ -10,6 +10,8 @@ import 'package:sadulur/pages/feeds.dart';
 import 'package:sadulur/utils/firebase.dart';
 
 class TabScreen extends StatefulWidget {
+  const TabScreen({super.key});
+
   @override
   _TabScreenState createState() => _TabScreenState();
 }
@@ -33,7 +35,7 @@ class _TabScreenState extends State<TabScreen> {
     {
       'title': 'unsee',
       'icon': Ionicons.add_circle,
-      'page': Text('nes'),
+      'page': const Text('nes'),
       'index': 2,
     },
     {
@@ -73,7 +75,7 @@ class _TabScreenState extends State<TabScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(width: 5),
+            const SizedBox(width: 5),
             for (Map item in pages)
               item['index'] == 2
                   ? buildFab()
@@ -92,7 +94,7 @@ class _TabScreenState extends State<TabScreen> {
                         onPressed: () => navigationTapped(item['index']),
                       ),
                     ),
-            SizedBox(width: 5),
+            const SizedBox(width: 5),
           ],
         ),
       ),
@@ -100,7 +102,7 @@ class _TabScreenState extends State<TabScreen> {
   }
 
   buildFab() {
-    return Container(
+    return SizedBox(
       height: 45.0,
       width: 45.0,
       // ignore: missing_required_param

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:sadulur/auth/login/login.dart';
 
 class Landing extends StatefulWidget {
+  const Landing({super.key});
+
   @override
   _LandingState createState() => _LandingState();
 }
@@ -11,7 +13,7 @@ class _LandingState extends State<Landing> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SizedBox(
         height: MediaQuery.of(context).size.height,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -66,11 +68,11 @@ class _LandingState extends State<Landing> {
                       end: Alignment.bottomLeft,
                       colors: [
                         Theme.of(context).colorScheme.secondary,
-                        Color(0xff597FDB),
+                        const Color(0xff597FDB),
                       ],
                     ),
                   ),
-                  child: Center(
+                  child: const Center(
                     child: Text(
                       'LOGIN',
                       style: TextStyle(
@@ -100,11 +102,11 @@ class _LandingState extends State<Landing> {
                       end: Alignment.bottomLeft,
                       colors: [
                         Theme.of(context).colorScheme.secondary,
-                        Color(0xff597FDB),
+                        const Color(0xff597FDB),
                       ],
                     ),
                   ),
-                  child: Center(
+                  child: const Center(
                     child: Text(
                       'SIGN UP',
                       style: TextStyle(

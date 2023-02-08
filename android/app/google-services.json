@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "944376937289-dbsvk583dbda9gsk9g3jok8a2skf45kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sadulur",
+            "certificate_hash": "d5b3c7d06e45832845bd7551285506c7579c74bf"
+          }
+        },
+        {
           "client_id": "944376937289-qkvdgmvcooupjbs5h9hu9reeclm40tg4.apps.googleusercontent.com",
           "client_type": 3
         }
